@@ -1,8 +1,8 @@
 {
     "name": "me.passos.playground.fcm.cordova",
-    "displayName": "HelloCordova",
+    "displayName": "FCM (Cordova)",
     "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "description": "An Cordova playground app for testing Firebase Cloud Messaging",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
