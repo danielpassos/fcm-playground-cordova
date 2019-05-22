@@ -13,10 +13,15 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <resource-file src="google-services.json" target="app/google-services.json" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="android" spec="~7.1.4" />
+    <plugin name="phonegap-plugin-push" spec="^2.2.3">
+        <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
+        <variable name="FCM_VERSION" value="11.6.2" />
+    </plugin>
+    <engine name="android" spec="^7.1.4" />
 </widget>
